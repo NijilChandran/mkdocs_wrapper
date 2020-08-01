@@ -15,10 +15,11 @@ This wrapper for mkdocs does two things that can simplify how you use mkdocs on 
 ## Steps
 
 - Install [Mkdocs](https://www.mkdocs.org/) on your computer.
-- Copy the updatemkYAML.py to the mkdocs project directory (my-project) just above the "docs" directory.
-- Copy the mdserve.bat file to your PC.
-- Create a shortcut pointing to mdserve.bat file
-- Click on the shortcut anytime you want the files to be served
+- Clone or download mkdocs_wrapper project to your computer.
+- Modify the variable mkdocs_project_dir in the mdserve.bat file from mkdocs_wrapper.
+  + mkdocs_project_dir is the path to the mkdocs project in your computer.
+- Create a shortcut pointing to mdserve.bat file on your desktop. Or you can just click on the .bat file.
+- Click on the shortcut anytime you want the files to start up mkdocs.
 
 
 ## updatemkYAML.py
