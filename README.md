@@ -21,6 +21,14 @@ This wrapper for mkdocs does two things that can simplify how you use mkdocs on 
 - Create a shortcut pointing to mdserve.bat file on your desktop. Or you can just click on the .bat file.
 - Click on the shortcut anytime you want the files to start up mkdocs.
 
+## Python installed via Anaconda package manager
+
+- Add a call to conda in MkdocsServe.bat before the python call  
+     *call [Replace Path to conda.bat] activate base*
+- This will invoke default conda environment (base) instead of looking up for Python installation in the Windows PATH
+- To know your conda.bat path ,  execute *where conda* on your Anaconda terminal
+- Path to conda.bat should look something like:  
+  C:\Users\<username>\Anaconda3\Library\bin\conda.bat 
 
 ## updatemkYAML.py
 
