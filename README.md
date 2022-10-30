@@ -1,6 +1,7 @@
 # mkdocs_wrapper
-View markdown files on a browser with one click. Wrapper for mkdocs
-Tested only on Windows. Might need minor tweeks to make it work on \*nix based OS.
+- View markdown files on a browser with one click. 
+- Wrapper for mkdocs is tested only on Windows. 
+- Might need minor tweeks to make it work on \*nix based OS.
 
 [Mkdocs](https://www.mkdocs.org/) renders all your markdown (.md) files on a browser.   
 This wrapper for mkdocs does two things that can simplify how you use mkdocs on a windows computer.
