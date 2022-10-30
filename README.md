@@ -1,5 +1,6 @@
 # mkdocs_wrapper
 View markdown files on a browser with one click. Wrapper for mkdocs
+Tested only on Windows. Might need minor tweeks to make it work on \*nix based OS.
 
 [Mkdocs](https://www.mkdocs.org/) renders all your markdown (.md) files on a browser.   
 This wrapper for mkdocs does two things that can simplify how you use mkdocs on a windows computer.
@@ -39,5 +40,5 @@ This wrapper for mkdocs does two things that can simplify how you use mkdocs on 
 ## mdserve.bat
 
 - Changes directory to the location of my-project. Make changes according to your local path
-- Calls updateYAML.py to create a ne mkdocs.yml that will have all the .md files in your list
+- Calls updateYAML.py to create a new mkdocs.yml that will have all the .md files in your list
 - calls mkdocs serve to serve the markdown files at http://127.0.0.1:8000
