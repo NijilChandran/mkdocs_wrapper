@@ -1,7 +1,7 @@
 import os,sys
 from yaml import dump
 
-site_name  = "Your site name goes here"
+site_name  = "Your site name"
 theme_dict = { "name": "readthedocs" , "include_sidebar": True, "navigation_depth": 10 }
 yml_filename ="/mkdocs.yml"
 mdfolder='/docs'
@@ -27,6 +27,7 @@ def updateYAML():
         exit(-3)
 
     list_files = [f for f in files if f.endswith(".md") ]
+    print("list_files ",list_files)
     nav_list=[]
     for k in list_files:
         nav_list.append({k.split(".")[0]:k})
