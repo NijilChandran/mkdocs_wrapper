@@ -1,10 +1,12 @@
 # mkdocs_wrapper
-- View markdown files on a browser with one click. 
-- Wrapper for mkdocs is tested only on Windows. 
-- Might need minor tweeks to make it work on \*nix based OS.
 
 [Mkdocs](https://www.mkdocs.org/) renders all your markdown (.md) files on a browser.   
 This wrapper for mkdocs does two things that can simplify how you use mkdocs on a windows computer.
+
+- View markdown files on a browser with one click. 
+- Use mdserv.bat for Windows OS.
+- Use mdserve.sh file for .nix based systems.  
+- Requires python3. Use requirements.txt to install required packages
 
 ## Why do I need this wrapper?
 
